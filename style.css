@@ -1,6 +1,95 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
     color: white;
-    padding: 128px 16px;
+    padding: 120px 8px;
+    background-image: url("https://www.un.org/sites/un2.un.org/files/2021/08/feeling-the-heat.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    border: 3px dashed #FFFFFF;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #096b0e73;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 48px;
+    background-color: #f2f2f2;
+    padding: 20px;
+        border-radius: 20px;
+        margin: 20px;
+
+}
+h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: #729852;
+
+}
+.change-section {
+    margin: 25px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-image: 1;
+
+
+}
+.affect-section {
+    margin: 25px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-image: 1;
+}
+.solution-section {
+    margin: 25px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-image: 1;
+}
+.footer {
+    margin: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    text-decoration-color: #729852;
+    font-size: 20px;
+
+}
+.button {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+.change-image {
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.solution-image {
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.affect-image {
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
 }
