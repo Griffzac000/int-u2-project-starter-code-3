@@ -7,12 +7,14 @@ header {
     border-radius: 20px;
     border: 3px dashed #FFFFFF;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #096b0e73;
 }
+
 h1 {
     font-size: 50px;
     color: rgb(0, 0, 0);
@@ -20,10 +22,14 @@ h1 {
     font-size: 48px;
     background-color: #f2f2f2;
     padding: 20px;
-        border-radius: 20px;
-        margin: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+
 
 }
+
 h2 {
     font-size: 30px;
     color: rgb(0, 0, 0);
@@ -31,34 +37,40 @@ h2 {
     font-size: 28px;
     text-decoration: underline;
     text-decoration-color: #729852;
-
 }
+
 .change-section {
     margin: 25px;
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 10px;
-    display: flex;
-    flex-image: 1;
-
+    border-image: 1;
 
 }
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
 .affect-section {
     margin: 25px;
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 10px;
-    display: flex;
-    flex-image: 1;
+    border-image: 1;
 }
+
 .solution-section {
     margin: 25px;
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 10px;
-    display: flex;
-    flex-image: 1;
+    border-image: 1;
+    margin-right: 20px;
 }
+
 .footer {
     margin: 20px;
     color: #ffffff;
@@ -71,25 +83,92 @@ h2 {
     font-size: 20px;
 
 }
-.button {
+
+#link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
     text-align: center;
-    margin: 20px;
+    background-color: #f3e412;
+    color: rgb(0, 0, 0);
     padding: 20px;
-    border-radius: 15px;
-    font-size: 22px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin: 0 auto;
+    height: 50px;
 }
+#link:hover {
+    background-color: #45a049;
+    background-color: #4CAF50;
+    color: #fffefe;
+    transition: background-color 0.3s ease;
+    transform: scale(1.1);
+}
+
 .change-image {
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.25);
+
 }
+
+.change-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 .solution-image {
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.25);
+
 }
+
+.solution-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 .affect-image {
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.25);
+}
+
+.affect-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+.change-text {
+    margin-right: 20px;
+    text-align: center;
+    flex-direction: bottom;
+}
+
+.affect-text{
+    margin-right: 20px;
+    text-align: center;
+    display : flex;
+    flex-direction: bottom;
+}
+
+.solution-text{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    display : flex;
+    flex-direction: bottom;
+    margin-left: 20px;
 }
