@@ -48,7 +48,7 @@ h2 {
 
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -104,6 +104,7 @@ h2 {
     margin: 0 auto;
     height: 50px;
 }
+
 #link:hover {
     background-color: #45a049;
     background-color: #4CAF50;
@@ -161,18 +162,18 @@ h2 {
     flex-direction: bottom;
 }
 
-.affect-text{
+.affect-text {
     margin-right: 20px;
     text-align: center;
-    display : flex;
+    display: flex;
     flex-direction: bottom;
 }
 
-.solution-text{
+.solution-text {
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
-    display : flex;
+    display: flex;
     flex-direction: bottom;
     margin-left: 20px;
 }
